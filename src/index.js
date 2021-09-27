@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//This code instructs React to find an element with an id of root and inject
+//the React code there. <App/> is your root element, and everything will 
+//branch from there. This is the beginning point for all future React code.
+
+//sometimes: ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(
   <React.StrictMode>
     <App />
